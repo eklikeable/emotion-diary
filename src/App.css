@@ -49,17 +49,14 @@ body {
   white-space: nowrap;
   font-family: 'Nanum Pen Script';
 }
-
 .MyButton_default {
   background-color: #ececec;
   color: #000000;
 }
-
 .MyButton_positive {
   background-color: #64c964;
   color: #fff;
 }
-
 .MyButton_negative {
   background-color: #fd565f;
   color: #fff;
@@ -74,27 +71,22 @@ header {
   align-items: center;
   border-bottom: 1px solid #e2e2e2;
 }
-
 header > div {
   display: flex;
 }
-
 header .head_text {
   width: 50%;
   font-size: 25px;
   justify-content: center;
 }
-
 header .head_btn_left {
   width: 25%;
   justify-content: start;
 }
-
 header .head_btn_right {
   width: 25%;
   justify-content: end;
 }
-
 header button {
   font-family: 'Nanum Pen Script';
 }

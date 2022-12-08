@@ -31,7 +31,7 @@ const DiaryEditor = ({ isEdit, originData }) => {
         isEdit ? '일기를 수정하시겠습니까?' : '새로운 일기를 작성하시겠습니까?'
       )
     )
-      if (isEdit) {
+      if (!isEdit) {
         onCreate(date, content, emotion);
       } else {
         onEdit(originData.id, date, content, emotion);

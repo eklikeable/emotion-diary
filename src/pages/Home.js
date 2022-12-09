@@ -13,6 +13,11 @@ const Home = () => {
   const headText = `${curDate.getFullYear()}년 ${curDate.getMonth() + 1}월`;
 
   useEffect(() => {
+    const titleElement = document.getElementsByTagName('title')[0];
+    titleElement.innerHTML = `감정 일기장`;
+  }, []);
+
+  useEffect(() => {
     //작성된 일기가 있는 경우에만
     if (diaryList.length >= 1) {
       // 월의 1일 계산
